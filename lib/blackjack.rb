@@ -71,7 +71,7 @@ end
 #####################################################
 
 def runner
- welcome
+welcome
 card = 0
 until card > 21
 newcard = hit?(card)
