@@ -59,9 +59,8 @@ new = deal_card
 hitme += new
 else
 invalid_command
-prompt_user
 end
-display_card_total(card)
+#display_card_total(card)
 end 
 
 
