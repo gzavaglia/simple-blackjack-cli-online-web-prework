@@ -71,14 +71,11 @@ end
 
 def runner
 welcome
-card = 0
+card = initial_round
 until card > 21
-newcard = hit?(card)
-card += newcard
+card = hit?(card)
 display_card_total(card)
 end 
-return card
- 
-return end_game
+return end_game(card)
 end
     
